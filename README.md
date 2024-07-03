@@ -53,11 +53,14 @@ python -m torch.distributed.launch --nproc_per_node=8 --use_env eval.py --model_
 ## Citation
 If you make use of our work, please cite our paper.
 ```bibtex
-@article{shi2023dynamic,
-  title={Dynamic Mdetr: A Dynamic Multimodal Transformer Decoder for Visual Grounding},
+@article{shi2024dynamic,
+  title={Dynamic MDETR: A Dynamic Multimodal Transformer Decoder for Visual Grounding},
   author={Shi, Fengyuan and Gao, Ruopeng and Huang, Weilin and Wang, Limin},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2023},
+  volume={46},
+  number={2},
+  pages={1181--1198},
+  year={2024},
   publisher={IEEE}
 }
 ```
