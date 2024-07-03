@@ -1,0 +1,5 @@
+pip install torch==1.13.1 torchvision==0.14.1
+pip install scipy
+pip install pytorch-pretrained-bert
+pip install fifty
+pip install ftfy
